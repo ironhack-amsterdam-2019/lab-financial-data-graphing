@@ -43,7 +43,7 @@ class MyCoolChartStuff {
       let chartData = {
         labels: labels,
         datasets: [{
-          label: 'BTC',
+          label: `Bitcoin price index [${this.params.currency}]`,
           data: data,
           backgroundColor: "rgba(153,255,51,0.4)"
         }]
